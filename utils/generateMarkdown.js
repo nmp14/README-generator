@@ -13,7 +13,7 @@ function generateMarkdown(data) {
       license = '[![License](https://img.shields.io/badge/License-BSD-orange.svg)](https://opensource.org/licenses/BSD-3-Clause)'
       break;
     case 'Creative Commons':
-      license = '[![License: CC0-1.0](https://licensebuttons.net/l/1.0/80x15.png)](http://creativecommons.org/publicdomain/zero/1.0/)'
+      license = '[![License: CC0-1.0](https://licensebuttons.net/l/zero/1.0/80x15.png)](http://creativecommons.org/publicdomain/zero/1.0/)'
       break;
     case 'Eclipse':
       license = '[![License](https://img.shields.io/badge/License-EPL%201.0-red.svg)](https://opensource.org/licenses/EPL-1.0)'
@@ -59,34 +59,36 @@ ${license}
 
 ## Table of Contents
 1. [Description](#description)
-2. [Installation Instructions](#install)
-3. [Usage](#use)
-4. [Contribution Guidelines](#contribution)
-5. [Test Instuctions](#test)
-6. [License Information](#license)
-7. [Questions](#question)
+2. [Installation Instructions](#install-instructions)
+3. [Usage](#usage)
+4. [Contribution Guidelines](#contribution-guidelines)
+5. [Test Instuctions](#test-instructions)
+6. [License Information](#license-information)
+7. [Questions](#questions)
 
-## Description {#description}
+## Description
 ${data.description}
 
-## Installation Instructions {#install}
+## Installation Instructions
 ${data.installation}
 
-## Usage {#use}
+## Usage
 ${data.usage}
 
-## Contribution Guidelines {#contribution}
+## Contribution Guidelines
 ${data.contribution}
 
-## Test Instructions {#test}
+## Test Instructions
 ${data.test}
 
-## License Information {#license}
+## License Information
 ${data.license}
+
 ---
+
 ${data.licenseInfo}
 
-## Questions {#question}
+## Questions
 If you have further questions you can contact us at ${data.email}.\n
 Github: ${data.github}
 `;
