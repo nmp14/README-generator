@@ -23,7 +23,12 @@ function init() {
                 name: "title",
                 type: "input",
                 message: "What is the title of the project?",
-            }
+            },
+            {
+                name: "description",
+                type: "input",
+                message: "Enter description of project",
+            },
         ])
         .then(answers => {
             let markdown = generateMarkdown(answers);
