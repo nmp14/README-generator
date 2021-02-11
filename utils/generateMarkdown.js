@@ -82,9 +82,7 @@ ${data.contribution}
 ${data.test}
 
 ## License Information
-${data.license}
-
----
+### ${data.license}
 
 ${data.licenseInfo}
 
