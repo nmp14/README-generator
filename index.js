@@ -29,6 +29,26 @@ function init() {
                 type: "input",
                 message: "Enter description of project",
             },
+            {
+                name: "installation",
+                type: "input",
+                message: "Installation instructions",
+            },
+            {
+                name: "usage",
+                type: "input",
+                message: "Enter usage instructions",
+            },
+            {
+                name: "contribution",
+                type: "input",
+                message: "contribution guidelines",
+            },
+            {
+                name: "test",
+                type: "input",
+                message: "test instructions",
+            }
         ])
         .then(answers => {
             let markdown = generateMarkdown(answers);
