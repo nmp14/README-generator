@@ -27,7 +27,7 @@ function init() {
         ])
         .then(answers => {
             let markdown = generateMarkdown(answers);
-            writeToFile("./utils/README.md", markdown);
+            writeToFile("./README_files/README.md", markdown);
         })
 }
 
