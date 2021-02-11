@@ -59,6 +59,16 @@ function init() {
                 name: 'licenseInfo',
                 type: 'input',
                 message: "Enter details about license",
+            },
+            {
+                name: "github",
+                type: "input",
+                message: "Enter github",
+            },
+            {
+                name: "email",
+                type: "input",
+                message: "Enter a contact email"
             }
         ])
         .then(answers => {

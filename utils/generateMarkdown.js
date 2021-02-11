@@ -76,6 +76,10 @@ ${data.test}
 ${data.license}
 ---
 ${data.licenseInfo}
+
+## Questions
+If you have further questions you can contact us at ${data.email}.\n
+Github: ${data.github}
 `;
 }
 
