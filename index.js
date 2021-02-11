@@ -48,6 +48,17 @@ function init() {
                 name: "test",
                 type: "input",
                 message: "test instructions",
+            },
+            {
+                name: "license",
+                type: "list",
+                message: "Pick your license",
+                choices: ["Apache", "Boost", "BSD", "Creative Commons", "Eclipse", "GNU", "IBM", "ISC", "MIT", "Mozilla", "Open Data Commons", "Perl", "Artistic", "SIL", "Unlcense", "WTFPL", "Zlib"]
+            },
+            {
+                name: 'licenseInfo',
+                type: 'input',
+                message: "Enter details about license",
             }
         ])
         .then(answers => {
