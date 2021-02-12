@@ -53,7 +53,8 @@ function init() {
                 name: "license",
                 type: "list",
                 message: "Pick your license",
-                choices: ["Apache", "Boost", "BSD", "Creative Commons", "Eclipse", "GNU", "IBM", "ISC", "MIT", "Mozilla", "Open Data Commons", "Perl", "Artistic", "SIL", "Unlicense", "WTFPL", "Zlib"]
+                choices: ["No license", "Apache", "Boost", "BSD", "Creative Commons", "Eclipse", "GNU", "IBM", "ISC", "MIT", "Mozilla", "Open Data Commons", "Perl", "Artistic", "SIL", "Unlicense", "WTFPL", "Zlib"],
+                default: "No license",
             },
             {
                 name: 'licenseInfo',

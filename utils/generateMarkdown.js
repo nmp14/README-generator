@@ -51,6 +51,8 @@ function generateMarkdown(data) {
     case 'Zlib':
       license = '[![License: Zlib](https://img.shields.io/badge/License-Zlib-lightgrey.svg)](https://opensource.org/licenses/Zlib)'
       break;
+    case 'No license':
+      license = '![License None](https://img.shields.io/badge/Liscense-None-yellowgreen)';
   }
 
   return `# ${data.title}
