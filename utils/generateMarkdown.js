@@ -61,7 +61,7 @@ ${license}
 
 ## Table of Contents
 1. [Description](#description)
-2. [Installation Instructions](#install-instructions)
+2. [Installation Instructions](#installation-instructions)
 3. [Usage](#usage)
 4. [Contribution Guidelines](#contribution-guidelines)
 5. [Test Instuctions](#test-instructions)
