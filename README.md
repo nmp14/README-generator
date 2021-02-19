@@ -12,7 +12,9 @@
 7. [Questions](#questions)
 
 ## Description
-This a nodejs based application used to generate readme markdown from commandline prompts. It will ask a series of questions (this readme is an example of the layout) and generate the markup with your provided answers. It uses the node package inquirer to generate the prompts.
+This a nodejs based application used to generate readme markdown from commandline prompts. It will ask a series of questions (this readme is an example of the layout) and generate the markup with your provided answers. It uses the node package inquirer to generate the prompts.  
+
+Video demo: https://www.youtube.com/watch?v=WPhi97zkJjE
 
 ## Installation Instructions
 None
